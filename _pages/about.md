@@ -26,9 +26,8 @@ latest_posts:
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
+Hi! I am Chenyu Zhang, a fourth-year undergraduate student at [Peking University](https://english.pku.edu.cn/), majoring in Statistics of the School of Mathematical Sciences. I was advised by Prof. [Jiahuan Zhou](https://zhoujiahuan1991.github.io/) in [Wangxuan Institute of Computer Technology](https://www.wict.pku.edu.cn/english/home/index.htm), [Peking University](https://english.pku.edu.cn/). I am currently working closely with Prof. [Katerina Fragkiadaki](https://www.cs.cmu.edu/~katef/) in [Machine Learning Department](https://www.ml.cmu.edu/), [Carnegie Mellon University](https://cmu.edu/).
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Email: austinzhangcy \[at] gmail.com
 
 Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
