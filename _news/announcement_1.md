@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2025-01 
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement.
+One paper about Test-time Adaptation (SCAP: Transductive Test-Time Adaptation via Supportive Clique-based Attribute Prompting) accepted by CVPR 2025
