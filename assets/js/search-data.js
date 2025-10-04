@@ -77,8 +77,8 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-back-from-my-visit-to-katefgroup-in-cmu-very-grateful-to-prof-katerina-for-the-opportunity-looking-forward-to-continue-our-collaboration",
-          title: 'Back from my visit to katefgroup in CMU, very grateful to Prof. Katerina...',
+            },},{id: "news-back-from-my-visit-to-katefgroup-in-cmu-very-grateful-to-dr-katerina-fragkiadaki-for-the-opportunity-looking-forward-to-continuing-our-collaboration",
+          title: 'Back from my visit to Katefgroup in CMU, very grateful to Dr. Katerina...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
