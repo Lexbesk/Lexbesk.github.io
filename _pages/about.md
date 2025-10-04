@@ -28,6 +28,10 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I'm a Senior-year undergraduate student at Peking University. I'm major in Mathematics, and I love doing research in Computer Vision and Robotics where I can combine my math skills with ML algorithms. I am currently working with [Prof. Katerina](https://www.cs.cmu.edu/~katef/) in [Carnegie Mellon University](https://www.cmu.edu/), focusing on exciting topics of dexterous manipulation, hierarchical VLAs, and humanoids. Previously, I worked with [Prof. Jiahuan Zhou](https://zhoujiahuan1991.github.io/) in [Peking University](https://english.pku.edu.cn/).
+I'm an undergraduate student at [Peking University](https://english.pku.edu.cn/) in the [School of Mathematical Sciences](https://www.math.pku.edu.cn/puremath_en/). I am currently a research associate under Dr. [Katerina Fragkiadaki](https://www.cs.cmu.edu/~katef/) in [Carnegie Mellon University](https://www.cmu.edu/).
+
+My interests include: Robot Learning, Generative AI, 3D Vision for Robotics
+
+Previously, I was an intern at the [$OV^3Lab$](https://zhoujiahuan1991.github.io/research.html) under Dr. [Jiahuan Zhou](https://zhoujiahuan1991.github.io/) in [Wangxuan Institute of Computer Technology](https://www.icst.pku.edu.cn/english/home/index.htm), [Peking University](https://english.pku.edu.cn/).
 
 <!-- Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them. -->
