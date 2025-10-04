@@ -7,9 +7,7 @@ first_name: Chenyu
 middle_name: 
 last_name: Zhang
 contact_note: >
-  Feel free to reach out to me via email
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  description
 footer_text: >
   -
 keywords:  # add your own keywords or leave empty

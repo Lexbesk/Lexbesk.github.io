@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Back from my visit to katefgroup in CMU, very grateful to [Prof. Katerina](https://www.cs.cmu.edu/~katef/) for the opportunity, looking forward to continue our collaboration.
+Back from my visit to Katefgroup in CMU, very grateful to Dr. [Katerina Fragkiadaki](https://www.cs.cmu.edu/~katef/) for the opportunity, looking forward to continuing our collaboration!
