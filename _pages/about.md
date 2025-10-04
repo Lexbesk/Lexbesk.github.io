@@ -22,10 +22,10 @@ announcements:
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: 5 # leave blank to include all the news in the `_news` folder
 
-latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+# latest_posts:
+#   enabled: true
+#   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
+#   limit: 3 # leave blank to include all the blog posts
 ---
 
 I'm an undergraduate student at [Peking University](https://english.pku.edu.cn/) in the [School of Mathematical Sciences](https://www.math.pku.edu.cn/puremath_en/). I am currently a research associate under Dr. [Katerina Fragkiadaki](https://www.cs.cmu.edu/~katef/) in [Carnegie Mellon University](https://www.cmu.edu/).
