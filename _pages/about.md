@@ -6,7 +6,7 @@ subtitle: You can also call me Austin!
 
 profile:
   align: right
-  image: photo1.jpg
+  image: photo0.jpeg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p><a href="https://www.linkedin.com/in/austin-zhang-76016934b"
