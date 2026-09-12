@@ -2,7 +2,7 @@
 layout: page
 title: Throughline
 description: A goal-tracking planner that turns notes and meetings into todos
-img: assets/img/2.jpg
+img: assets/img/projects/throughline-ui.png
 importance: 2
 category: engineering
 github: https://github.com/Lexbesk/Throughline
@@ -22,13 +22,13 @@ The piece the rest of the app is built around is the **Profile**: a representati
 
 **Stack:** deployed on [Fly.io](https://fly.io) with [Neon](https://neon.tech) Postgres. Source on [GitHub](https://github.com/Lexbesk/Throughline).
 
-<!-- TODO(visuals): needed — (1) product screenshots (goal view, todo adjudication, Profile editor), (2) architecture diagram: notes → pre-filter → adjudicator → live task list, (3) a worked new/duplicate/update example. -->
-
 <div class="row justify-content-sm-center">
-    <div class="col-sm-10 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/2.jpg" title="placeholder" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm-12 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/projects/throughline-ui.png" title="Throughline interface" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 <div class="caption">
-    Placeholder — to be replaced with product screenshots and the pipeline diagram.
+    The whole app is one screen: the assistant on the left takes pasted notes or plain conversation, and the live task list and Profile sit beside it on the right so you can see what any proposal would change before accepting it. "Review plan vs goals" runs the gap analysis below.
 </div>
+
+<!-- TODO(visuals): still wanted — a mid-adjudication shot with pending cards (new / duplicate / in-place update) and a populated task list and Profile; the current screenshot shows the empty state. -->

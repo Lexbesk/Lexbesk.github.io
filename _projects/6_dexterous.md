@@ -2,7 +2,7 @@
 layout: page
 title: Multi-Skill Dexterous Manipulation
 description: From RL to flow-matching — a three-stage pipeline for dexterous grasping
-img: assets/img/10.jpg
+img: assets/img/projects/dexterous-grasp.png
 importance: 1
 category: engineering
 ---
@@ -25,13 +25,13 @@ A distilled student only ever sees states the teacher visits, so the first small
 
 The pipeline reached **85%+ success across Dexonomy**, retaining diverse grasp strategies rather than converging on one.
 
-<!-- TODO(visuals): needed — (1) three-stage pipeline diagram, (2) grid of diverse grasps sampled from the proposer for one object, (3) success-rate chart across Dexonomy categories, (4) noise-injection recovery illustration, (5) short rollout GIFs. -->
-
 <div class="row justify-content-sm-center">
-    <div class="col-sm-10 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/10.jpg" title="placeholder" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm-12 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/projects/dexterous-rollout.png" title="Grasp rollout" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 <div class="caption">
-    Placeholder — to be replaced with the pipeline diagram and grasp gallery.
+    A pick-up rollout, twelve frames sampled evenly across the episode and read left to right, top to bottom: approach from above, descend onto the object, close on it, and lift. The red, green and blue axes mark the world frame.
 </div>
+
+<!-- TODO(visuals): still wanted — (1) three-stage pipeline diagram, (2) a gallery of distinct grasps the proposer samples for one object, (3) success rates by Dexonomy category, (4) a noise-injection recovery example. -->
