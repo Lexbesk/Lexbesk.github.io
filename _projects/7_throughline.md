@@ -5,6 +5,7 @@ description: A goal-tracking planner that turns notes and meetings into todos
 img: assets/img/2.jpg
 importance: 2
 category: engineering
+github: https://github.com/Lexbesk/Throughline
 ---
 
 Most task apps are containers: you put things in, they hold them. **Throughline** is built the other way around — it reads your notes and meetings, and works out what they imply for what you are actually trying to do.
@@ -19,7 +20,7 @@ The hard problem is not extracting candidate todos; it is deciding what to do wi
 
 The piece the rest of the app is built around is the **Profile**: a representation of the user's background, goals, and opinions. Analysis runs _through_ it, so notes and todos are read from the user's perspective rather than a generic one, and the advice the app produces is tailored rather than boilerplate. Every function in the app is designed around this object.
 
-**Stack:** deployed on [Fly.io](https://fly.io) with [Neon](https://neon.tech) Postgres.
+**Stack:** deployed on [Fly.io](https://fly.io) with [Neon](https://neon.tech) Postgres. Source on [GitHub](https://github.com/Lexbesk/Throughline).
 
 <!-- TODO(visuals): needed — (1) product screenshots (goal view, todo adjudication, Profile editor), (2) architecture diagram: notes → pre-filter → adjudicator → live task list, (3) a worked new/duplicate/update example. -->
 
