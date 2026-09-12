@@ -23,9 +23,16 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
+        },{id: "nav-projects",
+          title: "projects",
+          description: "Research and engineering work, from real-to-sim robot benchmarking to computer-use agents.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/projects/";
+          },
         },{id: "nav-repositories",
           title: "repositories",
-          description: "Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.",
+          description: "Open-source code and experiments.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/repositories/";
@@ -42,74 +49,82 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-back-from-my-visit-to-katefgroup-in-cmu-very-grateful-to-dr-katerina-fragkiadaki-for-the-opportunity-looking-forward-to-continuing-our-collaboration",
-          title: 'Back from my visit to Katefgroup in CMU, very grateful to Dr. Katerina...',
+            },},{id: "news-scap-was-presented-at-cvpr-2025-in-nashville-test-time-adaptation-for-vision-language-models-no-labels-and-no-retraining-required",
+          title: 'SCAP was presented at CVPR 2025 in Nashville. Test-time adaptation for vision-language models,...',
           description: "",
-          section: "News",},{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
+          section: "News",},{id: "news-back-from-my-visit-to-katefgroup-at-cmu-very-grateful-to-dr-katerina-fragkiadaki-for-the-opportunity-and-looking-forward-to-continuing-our-collaboration",
+          title: 'Back from my visit to Katefgroup at CMU — very grateful to Dr....',
+          description: "",
+          section: "News",},{id: "news-robotarena-is-on-arxiv-scalable-robot-benchmarking-by-translating-real-teleoperation-video-into-simulation-project-page",
+          title: 'RobotArena ∞ is on arXiv — scalable robot benchmarking by translating real teleoperation...',
+          description: "",
+          section: "News",},{id: "news-robotarena-has-been-accepted-to-iclr-2026",
+          title: 'RobotArena ∞ has been accepted to ICLR 2026! 🎉',
+          description: "",
+          section: "News",},{id: "news-graduated-from-peking-university-with-a-b-s-in-statistics-from-the-school-of-mathematical-sciences-four-wonderful-years-thank-you-to-everyone-along-the-way",
+          title: 'Graduated from Peking University with a B.S. in Statistics from the School of...',
+          description: "",
+          section: "News",},{id: "news-ui-mate-is-out-tencent-hy-team-s-open-weight-foundation-gui-agent-released-with-osworkerbench-a-benchmark-of-100-long-horizon-office-workflows-across-41-applications-whose-task-construction-i-owned-code-report",
+          title: 'UI-Mate is out — Tencent Hy Team’s open-weight foundation GUI agent, released with...',
+          description: "",
+          section: "News",},{id: "news-started-my-s-m-in-computational-science-and-engineering-at-harvard-university-hello-cambridge",
+          title: 'Started my S.M. in Computational Science and Engineering at Harvard University. Hello, Cambridge!...',
+          description: "",
+          section: "News",},{id: "projects-robotarena",
+          title: 'RobotArena ∞',
+          description: "Unlimited robot benchmarking via real-to-sim translation — ICLR 2026",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/1_project/";
-            },},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
+              window.location.href = "/projects/1_robotarena/";
+            },},{id: "projects-particlediffuser",
+          title: 'ParticleDiffuser',
+          description: "Generative 3D object-particle dynamics for planning",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/2_project/";
-            },},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
-          description: "a project that redirects to another website",
+              window.location.href = "/projects/2_particlediffuser/";
+            },},{id: "projects-osworkerbench",
+          title: 'OSWorkerBench',
+          description: "100 long-horizon office workflows for computer-use agents, released with Tencent&#39;s UI-Mate",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/3_project/";
-            },},{id: "projects-project-4",
-          title: 'project 4',
-          description: "another without an image",
+              window.location.href = "/projects/3_osworkerbench/";
+            },},{id: "projects-scap",
+          title: 'SCAP',
+          description: "Transductive test-time adaptation via supportive clique-based attribute prompting — CVPR 2025",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/4_project/";
-            },},{id: "projects-project-5",
-          title: 'project 5',
-          description: "a project with a background image",
+              window.location.href = "/projects/4_scap/";
+            },},{id: "projects-d2art",
+          title: 'D2ART',
+          description: "Dual-modal prompting for vision–language models at test time",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/5_project/";
-            },},{id: "projects-project-6",
-          title: 'project 6',
-          description: "a project with no image",
+              window.location.href = "/projects/5_d2art/";
+            },},{id: "projects-multi-skill-dexterous-manipulation",
+          title: 'Multi-Skill Dexterous Manipulation',
+          description: "From RL to flow-matching — a three-stage pipeline for dexterous grasping",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/6_project/";
-            },},{id: "projects-project-7",
-          title: 'project 7',
-          description: "with background image",
+              window.location.href = "/projects/6_dexterous/";
+            },},{id: "projects-throughline",
+          title: 'Throughline',
+          description: "A goal-tracking planner that turns notes and meetings into todos",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/7_project/";
-            },},{id: "projects-project-8",
-          title: 'project 8',
-          description: "an other project with a background image and giscus comments",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/8_project/";
-            },},{id: "projects-project-9",
-          title: 'project 9',
-          description: "another project with an image 🎉",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/9_project/";
+              window.location.href = "/projects/7_throughline/";
             },},{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
         handler: () => {
-          window.open("mailto:%79%6F%75@%65%78%61%6D%70%6C%65.%63%6F%6D", "_blank");
+          window.open("mailto:%63%68%65%6E%79%75%7A%68%61%6E%67@%67.%68%61%72%76%61%72%64.%65%64%75", "_blank");
         },
       },{
-        id: 'social-inspire',
-        title: 'Inspire HEP',
+        id: 'social-github',
+        title: 'GitHub',
         section: 'Socials',
         handler: () => {
-          window.open("https://inspirehep.net/authors/1010907", "_blank");
+          window.open("https://github.com/Lexbesk", "_blank");
         },
       },{
-        id: 'social-rss',
-        title: 'RSS Feed',
+        id: 'social-linkedin',
+        title: 'LinkedIn',
         section: 'Socials',
         handler: () => {
-          window.open("/feed.xml", "_blank");
+          window.open("https://www.linkedin.com/in/austin-chenyu-zhang", "_blank");
         },
       },{
         id: 'social-scholar',
@@ -119,11 +134,11 @@ ninja.data = [{
           window.open("https://scholar.google.com/citations?user=qc6CJjYAAAAJ", "_blank");
         },
       },{
-        id: 'social-custom_social',
-        title: 'Custom_social',
+        id: 'social-rss',
+        title: 'RSS Feed',
         section: 'Socials',
         handler: () => {
-          window.open("https://www.alberteinstein.com/", "_blank");
+          window.open("/feed.xml", "_blank");
         },
       },{
       id: 'light-theme',
